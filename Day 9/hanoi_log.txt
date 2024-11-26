@@ -1,0 +1,6 @@
+Current State (Step 0):
+Tower A: 3 2 1 
+Tower B: 
+Tower C: 
+-----------------------
+Step 1: Move disk 3 from A to C
