@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/w33d/Documents/GitHub/BBH-C---Learning-Journey/Day 11 sort",
-      "program": "c:/Users/w33d/Documents/GitHub/BBH-C---Learning-Journey/Day 11 sort/build/Debug/outDebug",
+      "cwd": "c:/Users/w33d/Documents/GitHub/BBH-C---Learning-Journey/assignment/2",
+      "program": "c:/Users/w33d/Documents/GitHub/BBH-C---Learning-Journey/assignment/2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
