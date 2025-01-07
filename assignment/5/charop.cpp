@@ -62,6 +62,37 @@ char *strchr(const char *cs, char c)
     }
     return nullptr;
 }
+
+#include <iostream>
+using namespace std;
+
+char *strstr(const char *cs1, const char *cs2) {
+    if (!cs1 || !cs2) return nullptr;  // 如果任一字符串为空，直接返回 nullptr
+
+    char *start_1 = (char *)cs1;       // 遍历 cs1 的起始位置
+    const char *sub;                   // 用于匹配 cs2 的子串
+
+    while (*start_1 != '\0') {         // 遍历 cs1
+        if (*start_1 == *cs2) {        // 找到可能的匹配起点
+            sub = cs2;                 // 初始化子串指针
+            char *tmp = start_1;
+
+            while (*tmp == *sub && *sub != '\0') {  // 检查后续字符是否匹配
+                tmp++;
+                sub++;
+            }
+
+            if (*sub == '\0') {        // 如果完整匹配
+                return start_1;
+            }
+        }
+        start_1++;                     // 移动到 cs1 的下一个字符
+    }
+
+    return nullptr;                    // 未找到匹配
+}
+
+
 int main()
 {
     char s[10] = "abc";
