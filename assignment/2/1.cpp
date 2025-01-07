@@ -8,6 +8,6 @@ int func(int x)
 int main()
 {
     int x;
-    cin>>x;
-    cout<<func(x);
+    cin >> x;
+    cout << func(x);
 }

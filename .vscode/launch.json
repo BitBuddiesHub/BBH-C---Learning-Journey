@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/w33d/Documents/GitHub/BBH-C---Learning-Journey/assignment/2",
-      "program": "c:/Users/w33d/Documents/GitHub/BBH-C---Learning-Journey/assignment/2/build/Debug/outDebug",
+      "externalConsole": false,
+      "cwd": "/home/w33d/文件/GitHub/BBH-C---Learning-Journey/assignment/5",
+      "program": "/home/w33d/文件/GitHub/BBH-C---Learning-Journey/assignment/5/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

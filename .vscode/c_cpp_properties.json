@@ -1,36 +1,38 @@
 {
-    "configurations": [
-        {
-            "name": "windows-gcc-x64",
-            "includePath": [
-                "c:/Users/w33d/Documents/GitHub/BBH-C---Learning-Journey/**"
-            ],
-            "compilerPath": "C:\\cygwin64\\bin\\gcc",
-            "intelliSenseMode": "windows-gcc-x64",
-            "compilerArgs": [
-                ""
-            ],
-            "compilerPathInCppPropertiesJson": "gcc",
-            "mergeConfigurations": false,
-            "browse": {
-                "path": [
-                    "c:/Users/w33d/Documents/GitHub/BBH-C---Learning-Journey/**",
-                    "${workspaceFolder}"
-                ],
-                "limitSymbolsToIncludedHeaders": true
-            }
-        },
-        {
-            "name": "windows-gcc-x64",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ]
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "linux-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compilerArgs": [
+        ""
+      ],
+      "compilerPathInCppPropertiesJson": "gcc",
+      "mergeConfigurations": false,
+      "browse": {
+        "path": [
+          "c:/Users/w33d/Documents/GitHub/BBH-C---Learning-Journey/**",
+          "${workspaceFolder}"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "cStandard": "${default}",
+      "cppStandard": "${default}"
+    },
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ]
+    }
+  ],
+  "version": 4
 }
