@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/w33d/文件/GitHub/BBH-C---Learning-Journey/assignment/5",
-      "program": "/home/w33d/文件/GitHub/BBH-C---Learning-Journey/assignment/5/build/Debug/outDebug",
+      "cwd": "/home/w33d/文件/GitHub/BBH-C---Learning-Journey/useful",
+      "program": "/home/w33d/文件/GitHub/BBH-C---Learning-Journey/useful/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
