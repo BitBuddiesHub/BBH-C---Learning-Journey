@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int dec[10];
-	int n=28, count=0;
+	int n=160, count=0;
 	for(int i=0; i<6; i++)
 	{
 		dec[i]=n%16;

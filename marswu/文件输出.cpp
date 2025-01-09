@@ -1,11 +1,16 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-int main()
-{
-	ofstream ofile;
-	ofile.open("C:\\Users\\Marsw\\Desktop\\test.txt");
-	ofile<<"zkx is nanniang";
-	ofile.close();
-	return 0;
+
+int main() {
+    ofstream ofile;
+    ofile.open("/home/username/Desktop/test.txt");
+    if (!ofile) {
+        cerr << "Error: Could not create file." << endl;
+        return 1;
+    }
+    ofile << "zkx is nanniang";
+    ofile.close();
+    cout << "File created successfully!" << endl;
+    return 0;
 }
